@@ -2,14 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Spicy Server Archive</title>
+  <title>Downloads</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #bbbbbb;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .download-card {
+      background: #1c1c1c;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .download-card:hover {
+      transform: scale(1.02);
+      background: #2a2a2a;
+    }
+
+    a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>The Neighbourhood Watch never sleeps 👀</h1>
+
+  <div class="container">
+
+    <h1>📁 Downloads</h1>
+    <p>Click below to download available files</p>
+
+    <div class="download-card">
+      <a href="vent.zip" download>⬇ Download Vent Files</a>
+    </div>
+
+    <div class="download-card">
+      <a href="file2.zip" download>⬇ Download File 2</a>
+    </div>
+
+    <div class="download-card">
+      <a href="file3.zip" download>⬇ Download File 3</a>
+    </div>
+
+  </div>
+
 </body>
-<ul>
-  <li><a href="spicy-tots-general.zip" download>General - spicy-tots-general</a></li>
-  <li><a href="smallbizshoutouts.zip" download>General - smallbizshoutouts</a></li>
-  <li><a href="dumplingdirectory.zip" download>General - dumplingdirectory</a></li>
-  <li><a href="vent.zip" download>Serious - vent</a></li>
-</ul>
+</html>

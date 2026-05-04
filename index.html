@@ -5,50 +5,31 @@
   <title>Spicy Server Archive</title>
 
   <style>
-body {
-  font-family: Arial, sans-serif;
-  color: #ffffff;
-  margin: 0;
-  padding: 40px;
-  text-align: center;
-
-  background-image: url("jellyfish");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #bbbbbb;
-      margin-bottom: 30px;
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("jellyfish");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 40px;
     }
 
     .container {
       max-width: 600px;
-      margin: 0 auto;
+      margin: auto;
     }
 
-    .download-card {
-      background: #1c1c1c;
+    .box {
+      background: rgba(0,0,0,0.6);
       padding: 20px;
-      margin: 15px 0;
+      margin: 20px 0;
       border-radius: 12px;
-      transition: transform 0.2s ease, background 0.2s ease;
-    }
-
-    .download-card:hover {
-      transform: scale(1.02);
-      background: #2a2a2a;
     }
 
     a {
       color: #00d4ff;
       text-decoration: none;
-      font-size: 18px;
       font-weight: bold;
     }
 
@@ -62,19 +43,30 @@ body {
 
   <div class="container">
 
-    <h1>📁 Downloads</h1>
-    <p>Click below to download available files</p>
+    <!-- MAIN TITLE -->
+    <h1>📁 My Downloads</h1>
+    <p>Choose a file below</p>
 
-    <div class="download-card">
-      <a href="spicy-tots-general.zip" download>⬇ Download General - spicy-tot-general</a>
+    <!-- General -->
+    <div class="box">
+      <h3>#spicy-tots-general</h3>
+      <a href="spicy-tots-general.zip" download>⬇ Download</a>
+    </div>
+       <div class="box">
+      <h3>#dumplingdirectory</h3>
+      <a href="dumplingdirectory.zip" download>⬇ Download</a>
     </div>
 
-    <div class="download-card">
-      <a href="file2.zip" download>⬇ Download File 2</a>
+    <!-- DOWNLOAD 2 -->
+    <div class="box">
+      <h3>File Two</h3>
+      <a href="file2.zip" download>⬇ Download</a>
     </div>
 
-    <div class="download-card">
-      <a href="file3.zip" download>⬇ Download File 3</a>
+    <!-- DOWNLOAD 3 -->
+    <div class="box">
+      <h3>File Three</h3>
+      <a href="file3.zip" download>⬇ Download</a>
     </div>
 
   </div>
